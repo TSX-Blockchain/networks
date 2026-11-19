@@ -1,0 +1,59 @@
+{
+  "name": "TSX Horizon",
+  "shortName": "Horizon",
+  "title": "TSX Horizon",
+  "chain": "TSX",
+  "role": "permissionless",
+  "testnet": false,
+  "chainId": 455,
+  "networkId": 455,
+  "chainIdHex": "0x1c7",
+  "blockchainId": "0x6ed2c0c559fa214432da982629a4fde4174f2d1ec307ad6e87ac0261ca4f50c6",
+  "infoURL": "https://tsx.network/",
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://horizon.tsx.network/rpc"
+  ],
+  "rpcUrls": [
+    "https://horizon.tsx.network/rpc"
+  ],
+  "faucets": [],
+  "blockExplorerUrls": [
+    "https://scan.tsx.network/horizon"
+  ],
+  "explorers": [
+    {
+      "name": "TSX Explorer",
+      "url": "https://scan.tsx.network/horizon",
+      "standard": "EIP3091"
+    }
+  ],
+  "explorerApi": "https://scan.tsx.network/horizon/api/v2",
+  "iconUrls": [
+    "https://tsx.network/brand/icon.png"
+  ],
+  "description": "The open chain. Anyone can deploy a contract and anyone can use it, with no sign-up and no approval.",
+  "source": "https://tsx.network/networks.json",
+  "wallet": {
+    "chainId": "0x1c7",
+    "chainName": "TSX Horizon",
+    "nativeCurrency": {
+      "name": "TSX",
+      "symbol": "TSX",
+      "decimals": 18
+    },
+    "rpcUrls": [
+      "https://horizon.tsx.network/rpc"
+    ],
+    "blockExplorerUrls": [
+      "https://scan.tsx.network/horizon"
+    ],
+    "iconUrls": [
+      "https://tsx.network/brand/icon.png"
+    ]
+  }
+}

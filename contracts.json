@@ -1,0 +1,224 @@
+{
+  "name": "TSX verified contracts",
+  "source": "https://tsx.network/",
+  "networksSource": "https://tsx.network/networks.json",
+  "retrievedAt": "2026-11-19T20:01:00+01:00",
+  "notice": "Addresses in `contracts` were published on tsx.network and confirmed as source-verified on the relevant explorer on 19 November 2026 (Europe/Warsaw). \"Verified\" means the explorer has matched published source code to the bytecode at that address. It is not a security review. The sale and bridge contracts have not been audited. Do not treat this file as a complete inventory of every contract on the chains.",
+  "contracts": [
+    {
+      "id": "tsx-sale",
+      "name": "TSX sale",
+      "description": "Takes USDC or USDT and sends the order to a TSX chain.",
+      "contractName": "TsxSale",
+      "address": "0x58a6f17E7427CB4FfFa57aE5381Dc2592ca48062",
+      "deployments": [
+        {
+          "chain": "avalanche-c-chain",
+          "chainName": "Avalanche C-Chain",
+          "chainId": 43114,
+          "verification": "verified",
+          "explorer": "https://snowtrace.io/address/0x58a6f17E7427CB4FfFa57aE5381Dc2592ca48062"
+        }
+      ]
+    },
+    {
+      "id": "sale-pool",
+      "name": "Sale pool",
+      "description": "Pays out the TSX that was bought.",
+      "contractName": "TsxGateway",
+      "address": "0xf65B8cA243C338daD78652D44C920921A957DC45",
+      "deployments": [
+        {
+          "chain": "horizon",
+          "chainName": "TSX Horizon",
+          "chainId": 455,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/horizon/address/0xf65B8cA243C338daD78652D44C920921A957DC45",
+          "verifiedAt": "2026-11-18T16:55:27+01:00"
+        },
+        {
+          "chain": "bastion",
+          "chainName": "TSX Bastion",
+          "chainId": 454,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/bastion/address/0xf65B8cA243C338daD78652D44C920921A957DC45",
+          "verifiedAt": "2026-11-18T16:55:43+01:00"
+        }
+      ]
+    },
+    {
+      "id": "bridge-pool",
+      "name": "Bridge pool",
+      "description": "Holds the TSX sent to the other chain and pays out what arrives from it.",
+      "contractName": "TsxGateway",
+      "address": "0x178d7c04cF2D2166DcD345d319D2fEb90c9b0629",
+      "deployments": [
+        {
+          "chain": "horizon",
+          "chainName": "TSX Horizon",
+          "chainId": 455,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/horizon/address/0x178d7c04cF2D2166DcD345d319D2fEb90c9b0629",
+          "verifiedAt": "2026-11-18T16:56:18+01:00"
+        },
+        {
+          "chain": "bastion",
+          "chainName": "TSX Bastion",
+          "chainId": 454,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/bastion/address/0x178d7c04cF2D2166DcD345d319D2fEb90c9b0629",
+          "verifiedAt": "2026-11-18T16:56:19+01:00"
+        }
+      ]
+    },
+    {
+      "id": "multicall3",
+      "name": "Multicall3",
+      "description": "Many reads in one call. viem and wagmi use it.",
+      "contractName": "Multicall3",
+      "address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "deployments": [
+        {
+          "chain": "horizon",
+          "chainName": "TSX Horizon",
+          "chainId": 455,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/horizon/address/0xcA11bde05977b3631167028862bE2a173976CA11",
+          "verifiedAt": "2026-11-18T17:08:22+01:00"
+        },
+        {
+          "chain": "bastion",
+          "chainName": "TSX Bastion",
+          "chainId": 454,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/bastion/address/0xcA11bde05977b3631167028862bE2a173976CA11",
+          "verifiedAt": "2026-11-18T17:08:22+01:00"
+        },
+        {
+          "chain": "testnet",
+          "chainName": "TSX Testnet",
+          "chainId": 445,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/testnet/address/0xcA11bde05977b3631167028862bE2a173976CA11",
+          "verifiedAt": "2026-11-18T17:08:22+01:00"
+        }
+      ]
+    },
+    {
+      "id": "createx",
+      "name": "CreateX",
+      "description": "CREATE, CREATE2 and CREATE3 at predictable addresses.",
+      "contractName": "CreateX",
+      "address": "0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed",
+      "deployments": [
+        {
+          "chain": "horizon",
+          "chainName": "TSX Horizon",
+          "chainId": 455,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/horizon/address/0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed",
+          "verifiedAt": "2026-11-18T17:08:42+01:00"
+        },
+        {
+          "chain": "bastion",
+          "chainName": "TSX Bastion",
+          "chainId": 454,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/bastion/address/0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed",
+          "verifiedAt": "2026-11-18T17:08:42+01:00"
+        },
+        {
+          "chain": "testnet",
+          "chainName": "TSX Testnet",
+          "chainId": 445,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/testnet/address/0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed",
+          "verifiedAt": "2026-11-18T17:08:42+01:00"
+        }
+      ]
+    },
+    {
+      "id": "avalanche-messenger",
+      "name": "Avalanche messenger",
+      "description": "Interchain messages (ICM, Teleporter) to Avalanche and between Horizon and Bastion. The same address is the messenger used by the official sale on Avalanche C-Chain.",
+      "contractName": "TeleporterMessenger",
+      "address": "0x253b2784c75e510dD0fF1da844684a1aC0aa5fcf",
+      "deployments": [
+        {
+          "chain": "horizon",
+          "chainName": "TSX Horizon",
+          "chainId": 455,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/horizon/address/0x253b2784c75e510dD0fF1da844684a1aC0aa5fcf",
+          "verifiedAt": "2026-11-18T17:08:41+01:00"
+        },
+        {
+          "chain": "bastion",
+          "chainName": "TSX Bastion",
+          "chainId": 454,
+          "verification": "verified",
+          "explorer": "https://scan.tsx.network/bastion/address/0x253b2784c75e510dD0fF1da844684a1aC0aa5fcf",
+          "verifiedAt": "2026-11-18T17:08:41+01:00"
+        },
+        {
+          "chain": "avalanche-c-chain",
+          "chainName": "Avalanche C-Chain",
+          "chainId": 43114,
+          "verification": "verified",
+          "explorer": "https://snowtrace.io/address/0x253b2784c75e510dD0fF1da844684a1aC0aa5fcf",
+          "note": "Published in the tsx.network sale and bridge configuration as the C-Chain messenger. The contracts table on tsx.network lists this messenger as verified on Horizon and Bastion, and not present on Testnet."
+        }
+      ]
+    }
+  ],
+  "salePaymentTokens": [
+    {
+      "symbol": "USDC",
+      "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "decimals": 6,
+      "chain": "avalanche-c-chain",
+      "chainName": "Avalanche C-Chain",
+      "chainId": 43114,
+      "role": "Sale payment token on Avalanche C-Chain, as published on tsx.network.",
+      "explorer": "https://snowtrace.io/address/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+    },
+    {
+      "symbol": "USDT",
+      "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+      "decimals": 6,
+      "chain": "avalanche-c-chain",
+      "chainName": "Avalanche C-Chain",
+      "chainId": 43114,
+      "role": "Sale payment token on Avalanche C-Chain, as published on tsx.network.",
+      "explorer": "https://snowtrace.io/address/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
+    }
+  ],
+  "notListedAsVerified": [
+    {
+      "id": "create2-proxy",
+      "name": "CREATE2 proxy",
+      "description": "Deterministic deployments from Foundry and Hardhat.",
+      "address": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+      "chains": [
+        "horizon",
+        "bastion",
+        "testnet"
+      ],
+      "reason": "Published on tsx.network and present on Horizon, Bastion, and Testnet (69 bytes of bytecode), but explorers cannot verify it because it is hand-written Yul. The site's note: check it yourself with `solc 0.5.8 --strict-assembly --optimize` on its source. Omitted from the verified list for that reason."
+    },
+    {
+      "id": "avalanche-messenger-testnet",
+      "name": "Avalanche messenger on Testnet",
+      "address": "0x253b2784c75e510dD0fF1da844684a1aC0aa5fcf",
+      "chains": [
+        "testnet"
+      ],
+      "reason": "tsx.network lists this messenger as not present on Testnet. The Testnet explorer confirms there is no contract at this address."
+    },
+    {
+      "id": "sale-or-bridge-on-testnet",
+      "name": "Sale pool and bridge pool on Testnet",
+      "reason": "tsx.network does not list a sale pool or bridge pool on Testnet, and the Testnet explorer has no contracts at the Horizon/Bastion sale or bridge addresses."
+    }
+  ]
+}

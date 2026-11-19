@@ -1,0 +1,59 @@
+{
+  "name": "TSX Bastion",
+  "shortName": "Bastion",
+  "title": "TSX Bastion",
+  "chain": "TSX",
+  "role": "permissioned",
+  "testnet": false,
+  "chainId": 454,
+  "networkId": 454,
+  "chainIdHex": "0x1c6",
+  "blockchainId": "0xd2e8683376db3849439e8ee039511ca1ac01c426cb6447cf5b9d463c8baf9a8e",
+  "infoURL": "https://tsx.network/",
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://bastion.tsx.network/rpc"
+  ],
+  "rpcUrls": [
+    "https://bastion.tsx.network/rpc"
+  ],
+  "faucets": [],
+  "blockExplorerUrls": [
+    "https://scan.tsx.network/bastion"
+  ],
+  "explorers": [
+    {
+      "name": "TSX Explorer",
+      "url": "https://scan.tsx.network/bastion",
+      "standard": "EIP3091"
+    }
+  ],
+  "explorerApi": "https://scan.tsx.network/bastion/api/v2",
+  "iconUrls": [
+    "https://tsx.network/brand/icon.png"
+  ],
+  "description": "The curated chain. Anyone can use it, but only approved builders can deploy contracts on it.",
+  "source": "https://tsx.network/networks.json",
+  "wallet": {
+    "chainId": "0x1c6",
+    "chainName": "TSX Bastion",
+    "nativeCurrency": {
+      "name": "TSX",
+      "symbol": "TSX",
+      "decimals": 18
+    },
+    "rpcUrls": [
+      "https://bastion.tsx.network/rpc"
+    ],
+    "blockExplorerUrls": [
+      "https://scan.tsx.network/bastion"
+    ],
+    "iconUrls": [
+      "https://tsx.network/brand/icon.png"
+    ]
+  }
+}

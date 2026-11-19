@@ -1,0 +1,60 @@
+{
+  "name": "TSX Testnet",
+  "shortName": "Testnet",
+  "title": "TSX Testnet",
+  "chain": "TSX",
+  "role": "testnet",
+  "testnet": true,
+  "chainId": 445,
+  "networkId": 445,
+  "chainIdHex": "0x1bd",
+  "infoURL": "https://tsx.network/",
+  "nativeCurrency": {
+    "name": "TSX",
+    "symbol": "TSX",
+    "decimals": 18
+  },
+  "rpc": [
+    "https://testnet.tsx.network/rpc"
+  ],
+  "rpcUrls": [
+    "https://testnet.tsx.network/rpc"
+  ],
+  "faucets": [
+    "https://tsx.network/"
+  ],
+  "blockExplorerUrls": [
+    "https://scan.tsx.network/testnet"
+  ],
+  "explorers": [
+    {
+      "name": "TSX Explorer",
+      "url": "https://scan.tsx.network/testnet",
+      "standard": "EIP3091"
+    }
+  ],
+  "explorerApi": "https://scan.tsx.network/testnet/api/v2",
+  "iconUrls": [
+    "https://tsx.network/brand/icon.png"
+  ],
+  "description": "A copy of Horizon for building and breaking things. Its coins are free from the faucet and have no value.",
+  "source": "https://tsx.network/networks.json",
+  "wallet": {
+    "chainId": "0x1bd",
+    "chainName": "TSX Testnet",
+    "nativeCurrency": {
+      "name": "TSX",
+      "symbol": "TSX",
+      "decimals": 18
+    },
+    "rpcUrls": [
+      "https://testnet.tsx.network/rpc"
+    ],
+    "blockExplorerUrls": [
+      "https://scan.tsx.network/testnet"
+    ],
+    "iconUrls": [
+      "https://tsx.network/brand/icon.png"
+    ]
+  }
+}
