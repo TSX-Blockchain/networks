@@ -128,7 +128,7 @@ Under Regulation (EU) 2023/1114 on markets in crypto-assets (MiCA), TSX is a uti
 - General: [hello@tsx.network](mailto:hello@tsx.network)
 - Website: [tsx.network](https://tsx.network)
 - X: [@tsx_blockchain](https://x.com/tsx_blockchain)
-- Discord: [discord.gg/sKusT7FA3](https://discord.gg/sKusT7FA3)
+- Discord: [discord.gg/BuErakdcw](https://discord.gg/BuErakdcw)
 
 ---
 
